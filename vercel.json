@@ -1,0 +1,5 @@
+{
+  "framework": null,
+  "buildCommand": "mkdir -p public && cp index.html styles.css script.js public/ 2>/dev/null; cp logo.png public/ 2>/dev/null; (test -d assets && cp -r assets public/) || true",
+  "outputDirectory": "public"
+}
