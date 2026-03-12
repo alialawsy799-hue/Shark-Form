@@ -1,0 +1,9 @@
+{
+  "name": "shark-landing",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css script.js dist/ && (test -d assets && cp -r assets dist/ || true)"
+  }
+}
